@@ -1,10 +1,10 @@
 {
   "name": "commonmark-str-to-html",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "es5.js",
   "scripts": {
-    "test": "node test | tap-spec",
+    "test": "npm start && 6to5-node test --modules commonInterop | tap-spec",
     "start": "6to5 --modules commonInterop es6.js > es5.js"
   },
   "author": "Brian LeRoux",
