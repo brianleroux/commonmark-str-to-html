@@ -1,0 +1,20 @@
+{
+  "name": "commonmark-str-to-html",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test | tap-spec",
+    "start": "6to5 --modules common es6.js > es5.js"
+  },
+  "author": "Brian LeRoux",
+  "license": "Apache2",
+  "dependencies": {
+    "commonmark": "^0.12.0"
+  },
+  "devDependencies": {
+    "6to5": "1.14.4",
+    "tap-spec": "^2.1.0",
+    "tape": "^3.0.3"
+  }
+}
