@@ -4,8 +4,8 @@
   "description": "",
   "main": "es5.js",
   "scripts": {
-    "test": "npm start && 6to5-node test --modules commonInterop | tap-spec",
-    "start": "6to5 --modules commonInterop es6.js > es5.js"
+    "test": "npm start && babel-node test --modules commonInterop | tap-spec",
+    "start": "babel es6.js -o es5.js"
   },
   "author": "Brian LeRoux",
   "license": "Apache2",
@@ -13,7 +13,7 @@
     "commonmark": "^0.22.0"
   },
   "devDependencies": {
-    "6to5": "*",
+    "babel": "5.8.23",
     "tap-spec": "^2.2.2",
     "tape": "^4.2.0"
   }
