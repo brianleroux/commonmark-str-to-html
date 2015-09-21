@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "6to5": "*",
-    "tap-spec": "^2.1.0",
-    "tape": "^3.0.3"
+    "tap-spec": "^2.2.2",
+    "tape": "^4.2.0"
   }
 }
