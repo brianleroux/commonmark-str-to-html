@@ -10,3 +10,13 @@ test('exists', (t) => {
   t.ok(toHTML, 'toHTML lib exists')
   t.end()
 })
+
+test('converts markdown to HTML', (t) => {
+  t.equal(
+    toHTML('Hello *world*'),
+    '<p>Hello <em>world</em></p>\n',
+    'spits out full-blown HTML'
+  )
+
+  t.end()
+})
