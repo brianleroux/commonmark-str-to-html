@@ -9,6 +9,10 @@
   },
   "author": "Brian LeRoux",
   "license": "Apache2",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brianleroux/commonmark-str-to-html"
+  },
   "dependencies": {
     "commonmark": "^0.12.0"
   },
